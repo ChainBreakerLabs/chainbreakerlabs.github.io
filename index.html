@@ -1,1 +1,520 @@
-<h1>ChainBreakerLabs</h1>
+<!doctype html>
+<html lang="es" class="no-script">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f1f0e8" />
+    <meta
+      name="description"
+      content="Creamos tecnología para vivir por elección. Descubre ChainBreaker Labs e Infinyte, nuestro primer paso hacia una vida con más libertad financiera."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ChainBreaker Labs — Tu vida. Sin cadenas." />
+    <meta
+      property="og:description"
+      content="Tecnología que abre posibilidades. Conoce nuestra visión y descubre Infinyte."
+    />
+    <meta property="og:url" content="https://chainbreakerlabs.com/" />
+    <meta
+      property="og:image"
+      content="https://chainbreakerlabs.com/images/chain-break.webp"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://chainbreakerlabs.com/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="preload"
+      href="/images/chain-break.webp"
+      as="image"
+      fetchpriority="high"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <title>ChainBreaker Labs — Tu vida. Sin cadenas.</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Ir al contenido</a>
+    <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="mark" viewBox="0 0 64 64">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="4.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M25 10h14M27 10v15L15 44a7 7 0 0 0 6 10h22a7 7 0 0 0 6-10L37 25V10"
+          />
+          <path d="m23 41 5-5m8 8 5-5M29 41l6-6" />
+          <path d="m45 14 3-4m-3 11h5" />
+        </g>
+      </symbol>
+      <symbol id="arrow" viewBox="0 0 24 24">
+        <path
+          d="M5 19 19 5M5 5h14v14"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+        />
+      </symbol>
+      <symbol id="asterisk" viewBox="0 0 100 100">
+        <g stroke="currentColor" stroke-width="16">
+          <path d="M50 5v90M11 27l78 46M11 73l78-46" />
+        </g>
+      </symbol>
+    </svg>
+    <header class="header" id="header">
+      <a
+        class="brand"
+        href="#top"
+        aria-label="ChainBreaker Labs, inicio"
+        data-i18n-aria="brandHome"
+        ><svg class="brand-mark" aria-hidden="true"><use href="#mark" /></svg
+        ><span class="brand-wordmark"
+          >ChainBreaker<span>Labs<span class="brand-period">™</span></span></span
+        ></a
+      >
+      <nav
+        class="desktop-nav"
+        aria-label="Navegación principal"
+        data-i18n-aria="mainNav"
+      >
+        <a href="#manifesto" data-i18n="navManifesto">El manifiesto</a
+        ><a href="#universe" data-i18n="navUniverse">Nuestro universo</a
+        ><a href="#vision" data-i18n="navVision">La visión</a>
+      </nav>
+      <div class="header-actions">
+        <label class="language"
+          ><span class="sr-only" data-i18n="languageLabel">Idioma</span
+          ><select id="language" aria-label="Idioma">
+            <option value="es">ES</option>
+            <option value="en">EN</option>
+            <option value="pt">PT</option>
+          </select></label
+        >
+        <a
+          class="nav-cta"
+          href="https://chainbreakerlabs.com/infinyte-page-web/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span data-i18n="navProduct">Conoce Infinyte</span
+          ><svg aria-hidden="true"><use href="#arrow" /></svg
+        ></a>
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+          aria-label="Abrir menú"
+        >
+          <span></span><span></span>
+        </button>
+      </div>
+      <nav
+        class="mobile-nav"
+        id="mobile-nav"
+        aria-label="Navegación móvil"
+        data-i18n-aria="mobileNav"
+        inert
+      >
+        <a href="#manifesto" data-i18n="navManifesto">El manifiesto</a
+        ><a href="#universe" data-i18n="navUniverse">Nuestro universo</a
+        ><a href="#vision" data-i18n="navVision">La visión</a
+        ><a
+          href="https://chainbreakerlabs.com/infinyte-page-web/"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="navProduct"
+          >Conoce Infinyte</a
+        >
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero section-shell" id="top" aria-labelledby="hero-title">
+        <div class="hero-topline">
+          <span class="eyebrow"
+            ><span class="status-dot"></span
+            ><span data-i18n="heroEyebrow">UN LABORATORIO DE POSIBILIDADES</span></span
+          ><span class="edition">VOL. 001 / INDEPENDENT LAB</span>
+        </div>
+        <div class="hero-copy">
+          <h1 id="hero-title">
+            <span class="hero-line" data-i18n="heroTitle">Tu vida.</span
+            ><span class="hero-serif" data-i18n="heroTitleSerif">Sin cadenas.</span
+            ><svg class="hero-star" aria-hidden="true"><use href="#asterisk" /></svg>
+          </h1>
+          <p class="hero-description" data-i18n="heroDescription">
+            Creamos tecnología que rompe límites y abre posibilidades. Para que vivas
+            por elección, no por imposición.
+          </p>
+          <a class="button button-dark" href="#universe"
+            ><span data-i18n="heroCta">Explora nuestro universo</span
+            ><span class="button-icon"
+              ><svg aria-hidden="true"><use href="#arrow" /></svg></span></a
+          ><span class="hero-note" data-i18n="heroNote"
+            >Grandes cambios. Un primer paso.</span
+          >
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <img
+            class="hero-chain"
+            src="/images/chain-break.webp"
+            width="1536"
+            height="1024"
+            alt=""
+            fetchpriority="high"
+          /><span class="art-coordinate coordinate-top">CB—001</span
+          ><span class="art-coordinate coordinate-bottom" data-i18n="artLabel"
+            >EL INICIO DE ALGO DIFERENTE</span
+          >
+          <div class="art-orbit"><span></span></div>
+        </div>
+        <div class="hero-bottom">
+          <a class="scroll-cue" href="#manifesto"
+            ><span class="scroll-line"></span
+            ><span data-i18n="scrollCue">DESLIZA. CAMBIA LA PERSPECTIVA.</span></a
+          ><span class="hero-bottom-note" data-i18n="heroBottom"
+            >Independientes por naturaleza. Libres por diseño.</span
+          >
+        </div>
+      </section>
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span data-i18n="tickerOne">MENOS LÍMITES</span
+          ><svg><use href="#asterisk" /></svg
+          ><span data-i18n="tickerTwo">MÁS POSIBILIDADES</span
+          ><svg><use href="#asterisk" /></svg
+          ><span data-i18n="tickerThree">TU PRÓXIMO CAPÍTULO</span
+          ><svg><use href="#asterisk" /></svg
+          ><span data-i18n="tickerOne">MENOS LÍMITES</span
+          ><svg><use href="#asterisk" /></svg
+          ><span data-i18n="tickerTwo">MÁS POSIBILIDADES</span
+          ><svg><use href="#asterisk" /></svg
+          ><span data-i18n="tickerThree">TU PRÓXIMO CAPÍTULO</span
+          ><svg><use href="#asterisk" /></svg>
+        </div>
+      </div>
+      <section
+        class="manifesto section-shell"
+        id="manifesto"
+        aria-labelledby="manifesto-title"
+      >
+        <div class="section-meta">
+          <span class="eyebrow" data-i18n="manifestoEyebrow">01 / EL MANIFIESTO</span
+          ><svg class="section-star" aria-hidden="true"><use href="#asterisk" /></svg>
+        </div>
+        <div class="manifesto-content">
+          <h2 class="statement" id="manifesto-title">
+            <span data-i18n="manifestoOne">Hay cadenas</span
+            ><span class="muted-text" data-i18n="manifestoTwo">que no se ven.</span
+            ><span data-i18n="manifestoThree">Y posibilidades</span
+            ><em data-i18n="manifestoFour">que aún no imaginas.</em>
+          </h2>
+          <div class="manifesto-bottom">
+            <span class="tiny-label" data-i18n="manifestoAside"
+              >CREEMOS EN LO QUE PUEDES LLEGAR A SER.</span
+            >
+            <p data-i18n="manifestoDescription">
+              La incertidumbre, las rutinas que pesan, las decisiones que nunca sentimos
+              nuestras. Nacimos para transformar esos límites en puntos de partida.
+              Diseñamos herramientas que te devuelven algo esencial: la capacidad de
+              elegir.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="story"
+        id="story"
+        aria-label="De las cadenas a la libertad"
+        data-i18n-aria="storyLabel"
+      >
+        <div class="story-sticky">
+          <div class="story-heading">
+            <span class="eyebrow" data-i18n="storyEyebrow"
+              >LA TRANSFORMACIÓN EMPIEZA CONTIGO</span
+            ><span class="story-count"><span id="story-current">01</span> / 03</span>
+          </div>
+          <div class="story-art" aria-hidden="true">
+            <img
+              class="story-frame frame-closed"
+              src="/images/chain-closed.webp"
+              width="1536"
+              height="1024"
+              alt=""
+              loading="lazy"
+            /><img
+              class="story-frame frame-break"
+              src="/images/chain-break.webp"
+              width="1536"
+              height="1024"
+              alt=""
+              loading="lazy"
+            /><img
+              class="story-frame frame-free"
+              src="/images/chain-free.webp"
+              width="1536"
+              height="1024"
+              alt=""
+              loading="lazy"
+            /><canvas id="story-particles"></canvas
+            ><span class="story-art-label"
+              >EXPERIMENT NO. 001<br /><span data-i18n="storyArtLabel"
+                >EL MATERIAL DE LA LIBERTAD</span
+              ></span
+            >
+          </div>
+          <div class="story-captions">
+            <article class="story-caption is-current" data-chapter="0">
+              <span class="tiny-label" data-i18n="chapterOneLabel">01 — RECONOCER</span>
+              <h2 data-i18n="chapterOneTitle">El primer límite es el que aceptamos.</h2>
+              <p data-i18n="chapterOneBody">
+                Vivir en automático también es una cadena. Reconocerla es empezar a
+                cambiar.
+              </p>
+            </article>
+            <article class="story-caption" data-chapter="1">
+              <span class="tiny-label" data-i18n="chapterTwoLabel"
+                >02 — CUESTIONAR</span
+              >
+              <h2 data-i18n="chapterTwoTitle">Nada cambia. Hasta que tú cambias.</h2>
+              <p data-i18n="chapterTwoBody">
+                Una decisión consciente puede abrir lo que parecía cerrado. La
+                tecnología debe ayudarte a tomarla.
+              </p>
+            </article>
+            <article class="story-caption" data-chapter="2">
+              <span class="tiny-label" data-i18n="chapterThreeLabel">03 — ELEGIR</span>
+              <h2 data-i18n="chapterThreeTitle">
+                El espacio que queda es tuyo para crear.
+              </h2>
+              <p data-i18n="chapterThreeBody">
+                Más claridad. Más intención. Más libertad para escribir tu siguiente
+                capítulo.
+              </p>
+            </article>
+          </div>
+          <div class="story-progress" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="universe section-shell"
+        id="universe"
+        aria-labelledby="universe-title"
+      >
+        <div class="section-heading">
+          <span class="eyebrow" data-i18n="universeEyebrow">02 / NUESTRO UNIVERSO</span
+          ><span class="tiny-label" data-i18n="universeAside"
+            >IDEAS QUE SE CONVIERTEN EN HERRAMIENTAS.</span
+          >
+        </div>
+        <div class="universe-intro reveal">
+          <h2 id="universe-title">
+            <span data-i18n="universeTitle">Una gran visión.</span
+            ><em data-i18n="universeTitleSerif">Un comienzo real.</em>
+          </h2>
+          <p data-i18n="universeDescription">
+            La libertad tiene muchas dimensiones. Empezamos por una que transforma tu
+            día a día: tu relación con el dinero.
+          </p>
+        </div>
+        <article class="product-card reveal" aria-labelledby="product-title">
+          <div class="product-copy">
+            <div class="product-topline">
+              <span class="product-number">APP / 001</span
+              ><span class="product-status"
+                ><span class="status-dot"></span
+                ><span data-i18n="productStatus">NUESTRO PRIMER PASO</span></span
+              >
+            </div>
+            <img
+              class="infinyte-icon"
+              src="/images/infinyte-icon.webp"
+              width="80"
+              height="80"
+              alt=""
+              loading="lazy"
+            />
+            <h3 id="product-title">Infinyte<span>™</span></h3>
+            <p class="product-tagline" data-i18n="productTagline">
+              Tu dinero, con intención. Tu futuro, en tus manos.
+            </p>
+            <p class="product-description" data-i18n="productDescription">
+              Un espacio para entender tus finanzas, organizar tus compromisos y dar
+              dirección a tus metas. Menos incertidumbre. Más decisiones que se sienten
+              tuyas.
+            </p>
+            <div class="product-tags">
+              <span data-i18n="productTagOne">Finanzas personales</span
+              ><span data-i18n="productTagTwo">Claridad financiera</span>
+            </div>
+            <a
+              class="button button-dark"
+              href="https://chainbreakerlabs.com/infinyte-page-web/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span data-i18n="productCta">Descubre Infinyte</span
+              ><span class="button-icon"
+                ><svg aria-hidden="true"><use href="#arrow" /></svg></span
+            ></a>
+          </div>
+          <div class="product-visual">
+            <div class="product-orbit orbit-one"></div>
+            <div class="product-orbit orbit-two"></div>
+            <span class="floating-word floating-word-one" data-i18n="floatingOne"
+              >más claridad.</span
+            ><span class="floating-word floating-word-two" data-i18n="floatingTwo"
+              >más tú.</span
+            >
+            <div class="phone">
+              <img
+                src="/images/infinyte-dashboard.webp"
+                width="828"
+                height="1792"
+                alt=""
+                loading="lazy"
+                class="phone-screen"
+              />
+              <span class="phone-island" aria-hidden="true"></span>
+            </div>
+            <span class="product-visual-caption" data-i18n="productDemo"
+              >INTERFAZ REAL · INFINYTE</span
+            ><svg class="product-star" aria-hidden="true"><use href="#asterisk" /></svg>
+          </div>
+        </article>
+        <div class="next-product">
+          <span class="next-plus" aria-hidden="true">+</span>
+          <div>
+            <h3 data-i18n="nextTitle">El universo sigue creciendo.</h3>
+            <p data-i18n="nextDescription">
+              Nuevas preguntas. Nuevos caminos. La misma intención.
+            </p>
+          </div>
+          <span class="tiny-label" data-i18n="nextAside">ESTO APENAS COMIENZA.</span>
+        </div>
+      </section>
+      <section class="vision" id="vision" aria-labelledby="vision-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <span class="eyebrow" data-i18n="visionEyebrow">03 / EL HORIZONTE</span
+            ><span class="vision-coordinate">∞ POSSIBILITIES</span>
+          </div>
+          <h2 class="vision-title reveal" id="vision-title">
+            <span data-i18n="visionTitle">La libertad no tiene</span
+            ><em data-i18n="visionTitleSerif">una sola forma.</em>
+          </h2>
+          <div class="vision-pillars">
+            <article class="vision-pillar reveal">
+              <span class="pillar-number">01</span
+              ><svg class="pillar-icon" viewBox="0 0 64 64" aria-hidden="true">
+                <path d="M10 49h44M15 40l12-13 9 6 14-20M38 13h12v12" />
+              </svg>
+              <h3 data-i18n="pillarFinance">Financiera.</h3>
+              <p data-i18n="pillarFinanceBody">
+                Que tu dinero amplíe tus posibilidades, en lugar de decidir por ti.
+              </p>
+              <span class="pillar-footnote" data-i18n="pillarFinanceNote"
+                >NUESTRO PUNTO DE PARTIDA</span
+              >
+            </article>
+            <article class="vision-pillar reveal">
+              <span class="pillar-number">02</span
+              ><svg class="pillar-icon" viewBox="0 0 64 64" aria-hidden="true">
+                <path d="M32 8v48M8 32h48M15 15l34 34M15 49l34-34" />
+                <circle cx="32" cy="32" r="16" />
+              </svg>
+              <h3 data-i18n="pillarPersonal">Personal y espiritual.</h3>
+              <p data-i18n="pillarPersonalBody">
+                Espacio para crecer, encontrar sentido y vivir en sintonía con lo que
+                importa.
+              </p>
+              <span class="pillar-footnote" data-i18n="pillarPersonalNote"
+                >PARTE DE NUESTRA VISIÓN</span
+              >
+            </article>
+            <article class="vision-pillar reveal">
+              <span class="pillar-number">03</span
+              ><svg class="pillar-icon" viewBox="0 0 64 64" aria-hidden="true">
+                <path d="M13 51V29h14V13h14v38M8 51h48M27 29v22M41 36h10v15" />
+              </svg>
+              <h3 data-i18n="pillarProfessional">Profesional.</h3>
+              <p data-i18n="pillarProfessionalBody">
+                Que tu potencial encuentre caminos. Y tu trabajo, un propósito que
+                sientas propio.
+              </p>
+              <span class="pillar-footnote" data-i18n="pillarProfessionalNote"
+                >PARTE DE NUESTRA VISIÓN</span
+              >
+            </article>
+          </div>
+          <div class="vision-bottom">
+            <span class="status-dot"></span>
+            <p data-i18n="visionBottom">
+              Nuestra visión: un ecosistema tecnológico que libere el potencial humano.
+              Una herramienta. Una decisión. Una persona a la vez.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="closing section-shell" aria-labelledby="closing-title">
+        <span class="eyebrow" data-i18n="closingEyebrow"
+          >EL SIGUIENTE PASO ES TUYO</span
+        >
+        <h2 class="closing-title reveal" id="closing-title">
+          <span data-i18n="closingTitle">Elige tu</span
+          ><em data-i18n="closingTitleSerif">próximo capítulo.</em
+          ><svg aria-hidden="true"><use href="#asterisk" /></svg>
+        </h2>
+        <div class="closing-bottom">
+          <p data-i18n="closingBody">
+            No necesitas tener todas las respuestas. Solo un lugar por donde empezar.
+          </p>
+          <a
+            class="button button-dark"
+            href="https://chainbreakerlabs.com/infinyte-page-web/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span data-i18n="closingCta">Empieza con Infinyte</span
+            ><span class="button-icon"
+              ><svg aria-hidden="true"><use href="#arrow" /></svg></span
+          ></a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section-shell">
+      <div class="footer-top">
+        <a
+          class="brand"
+          href="#top"
+          aria-label="ChainBreaker Labs, inicio"
+          data-i18n-aria="brandHome"
+          ><svg class="brand-mark" aria-hidden="true"><use href="#mark" /></svg
+          ><span class="brand-wordmark"
+            >ChainBreaker<span>Labs<span class="brand-period">™</span></span></span
+          ></a
+        ><span class="footer-purpose" data-i18n="footerPurpose"
+          >Tecnología con propósito. Libertad por diseño.</span
+        ><a class="back-top" href="#top"
+          ><span data-i18n="backTop">Volver al inicio</span><span>↑</span></a
+        >
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> ChainBreaker Labs.</span
+        ><a
+          href="https://chainbreakerlabs.com/infinyte-page-web/privacy.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="privacy"
+          >Privacidad de Infinyte</a
+        ><span class="footer-signature"
+          >MADE TO BREAK THE PATTERN.
+          <svg aria-hidden="true"><use href="#asterisk" /></svg
+        ></span>
+      </div>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
